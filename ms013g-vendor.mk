@@ -22,3 +22,6 @@ PRODUCT_PACKAGES += \
 	TimeService
 
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor-blobs.mk)
+
+# Common Proprietary files
+$(call inherit-product, vendor/samsung/msm8226-common/msm8226-common-vendor.mk)
